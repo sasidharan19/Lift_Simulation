@@ -1,0 +1,67 @@
+ /* .floorLines {
+    display: inline-block;
+    width: 50%;
+    margin: 60px auto;
+    border: 1px solid #000; 
+    background-color: #000;
+}  */
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+} */
+
+/* .upButton {
+    background-color: green;
+} */
+
+/* .downButton {
+    background-color: yellow;
+    position: relative;
+    top: 10px;
+} */
+
+.buttons {
+    justify-self: end !important;
+    align-self: start !important;
+    margin-left: 20%;
+}
+
+.lift {
+    background-color: aqua;
+    width: 100px;
+    min-height: 100px;
+}
+
+.userInputPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.floorContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.downButton, .upButton {
+    margin: 0 5px;
+}
+
+.floorLines {
+    flex: 1;
+    margin: 0 10px;
+}
+
